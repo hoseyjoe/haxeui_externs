@@ -1,6 +1,8 @@
 // generated file
 package haxe.ui.backend;
-
+import haxe.ui.containers.dialogs.Dialog.DialogButton;
+import haxe.ui.containers.dialogs.Dialog.DialogEvent;
+import haxe.ui.containers.dialogs.Dialogs.SelectedFileInfo;
 typedef OpenFileDialogOptions = {
     public var extensions:Null<Array<haxe.ui.containers.dialogs.Dialogs.FileDialogExtensionInfo>>;
     public var multiple:Null<Bool>;

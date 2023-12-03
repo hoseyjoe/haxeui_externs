@@ -1,6 +1,6 @@
 // generated file
 package haxe.ui.containers.dialogs;
-
+import haxe.ui.containers.dialogs.Dialog.DialogButton;
 typedef FileDialogExtensionInfo = {
     public var extension:Null<String>;
     public var label:Null<String>;

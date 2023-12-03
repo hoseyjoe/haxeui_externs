@@ -1,6 +1,8 @@
 // generated file
 package haxe.ui.core;
-
+import js.Browser;
+import js.html.CSSStyleDeclaration;
+import js.html.Element;
 extern class TextDisplayData {
     public function new():Void;
     public var multiline:Bool;
@@ -9,6 +11,7 @@ extern class TextDisplayData {
 }
 
 extern class TextDisplay extends haxe.ui.backend.TextDisplayImpl implements haxe.ui.validation.IValidating {
+    public var element:Element;
     public function new():Void;
     public var id(get, set):String;
     private function get_id():String;
